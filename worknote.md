@@ -14,7 +14,7 @@ root@moresec.cn
 root@cp01
 
 
-#wiki 192.168.110.144:
+#wiki 10.10.130.24:80
 
 
 运维服务器list
