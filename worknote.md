@@ -7,14 +7,14 @@
 
 ssh
 
-root@moresec.cn
+root@yuming.com
 
 开发机
 
 root@cp01
 
 
-#wiki 10.10.130.24:80
+#wiki 192.168.5.202:
 
 
 运维服务器list
@@ -22,7 +22,7 @@ root@cp01
 
 
 #mail
-smtp.moresec.cn
+smtp.yuming.com
 
 测试
-test@moresec.cn
+test@yuming.com
