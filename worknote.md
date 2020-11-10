@@ -7,14 +7,14 @@
 
 ssh
 
-root@yuming.com
+root@test
 
 开发机
 
 root@cp01
 
 
-#wiki 192.168.5.202:
+#wiki 192.168.6.47:
 
 
 运维服务器list
@@ -22,7 +22,7 @@ root@cp01
 
 
 #mail
-smtp.yuming.com
+smtp.test
 
 测试
-test@yuming.com
+test@test

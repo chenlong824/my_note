@@ -16,12 +16,12 @@ class SendMail(object):
         msg['From'] = self.user
         msg['to'] = to
         print msg.as_string()
-        s = smtplib.SMTP('smtp.moresec.cn')
+        s = smtplib.SMTP('smtp.test')
         s.login(self.user, self.passwd)
         s.sendmail(self.user, to, msg.as_string())
         s.close()
 
 
 if __name__ == '__main__':
-    s = SendMail('test@moresec.cn', '123456qwe')
-    s.send_mail('ce0@moresec.cn', " 标题 ", u" 信息 ")
+    s = SendMail('test@test', '123456qwe')
+    s.send_mail('ce0@test', " 标题 ", u" 信息 ")
